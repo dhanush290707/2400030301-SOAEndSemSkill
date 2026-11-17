@@ -24,6 +24,6 @@ public class MS1ControllerTest {
                 .param("a", "5")
                 .param("b", "10"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("MS 1.1 - Additon = 10"));
+                .andExpect(content().string("MS 1.1 - Additon = 15"));
     }
 }
